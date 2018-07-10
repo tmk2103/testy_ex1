@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96fe08f6-8abf-4527-8ff8-5f76231ebdd6" name="Default" comment="" />
+    <list default="true" id="96fe08f6-8abf-4527-8ff8-5f76231ebdd6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +19,11 @@
       <file leaf-file-name="FailedLoginTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            <state relative-caret-position="405">
+              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,10 +167,10 @@
         <option value="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" />
       </list>
     </option>
   </component>
@@ -191,6 +197,7 @@
     <option name="width" value="1251" />
     <option name="height" value="1337" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -280,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTests">
+  <component name="RunManager" selected="TestNG.FailedLoginTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -467,8 +474,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PositiveLoginTests" />
         <item itemvalue="TestNG.FailedLoginTests" />
+        <item itemvalue="TestNG.PositiveLoginTests" />
         <item itemvalue="TestNG.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" />
         <item itemvalue="TestNG.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword" />
       </list>
@@ -485,12 +492,17 @@
       <option name="presentableId" value="Default" />
       <updated>1531161098182</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1531243281291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531243281292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PositiveLoginTests - 2018.07.10 at 14h 30m 42s.xml">
-      <configuration name="PositiveLoginTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PositiveLoginTests_asUserLoginUsingValidLoginAndPassword - 2018.07.10 at 14h 33m 24s.xml">
       <configuration name="PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" configurationId="TestNG" />
     </history-entry>
@@ -518,19 +530,24 @@
     <history-entry file="PositiveLoginTests - 2018.07.10 at 15h 52m 18s.xml">
       <configuration name="PositiveLoginTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FailedLoginTests - 2018.07.10 at 19h 23m 41s.xml">
+      <configuration name="FailedLoginTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1251" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32858273" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.3293745" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003997" side_tool="true" weight="0.30720508" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30720508" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960032" visible="true" weight="0.30720508" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -547,11 +564,14 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32858273" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,6 +583,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,6 +668,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,8 +843,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state relative-caret-position="405">
+          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
