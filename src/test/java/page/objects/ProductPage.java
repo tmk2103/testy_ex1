@@ -34,6 +34,7 @@ public class ProductPage {
     public ProductPage checkingTheCurrentHeader() {
         String actualTitle = shoppingCartHeader.getText();
         assertEquals(actualTitle, "Shopping Cart");
+        logger.info("AssertHeader");
         return this;
     }
 }

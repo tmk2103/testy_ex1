@@ -13,20 +13,19 @@ public class AddingProductToTheCart extends TestBase {
     public void isTheProductInTheCart() throws InterruptedException {
         DriverUtils.navigateToPage(HOMEPAGE_URL);
 
+        SearchEngineTests searchEngineTests = new SearchEngineTests();
+        searchEngineTests.displayingProductAfterEnteringNameInSearchEngine();
 
         TopMenuPage topMenuPage = new TopMenuPage();
-        topMenuPage
-                .typeIntoSearchField("fish")
-                .clickOnSearchButton()
-                .isProductVisibleAfterSearching("fish")
-                .clickOnFirstProduct();
+        topMenuPage.clickOnFirstProduct();
+
         ProductPage productPage = new ProductPage();
         productPage
                 .clickAddToCart()
                 .checkingTheCurrentHeader();
 
 
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
     }
 

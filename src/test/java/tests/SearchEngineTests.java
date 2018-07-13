@@ -21,6 +21,7 @@ public class SearchEngineTests extends TestBase {
                 .typeIntoSearchField("fish")
                 .clickOnSearchButton()
                 .isProductVisibleAfterSearching("fish");
+
     }
 
 }
