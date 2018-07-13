@@ -22,7 +22,7 @@ public class FooterPage {
     public boolean isBannerAfterLoginDisplayed(){
         WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo);
         boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();
-        logger.info("Returning status of banner after login: {}", isDisplayed);
+        logger.info("Returning status of banner after login : {}", isDisplayed);
         return isDisplayed;
     }
 
