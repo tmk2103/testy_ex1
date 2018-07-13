@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96fe08f6-8abf-4527-8ff8-5f76231ebdd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddingProductToTheCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchEngineTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/FirstAutomatedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/SecondAutomatedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examples/WebElementsTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/FirstAutomatedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/SecondAutomatedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/WebElementsTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/navigation/ApplicationURLs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/navigation/ApplicationURLs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/TopMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/TopMenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FailedLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FailedLoginTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddingProductToTheCart.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddingProductToTheCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddingProductToTheCart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -45,6 +30,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
               <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -115,18 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooterPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -182,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/examples/SecondAutomatedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" />
@@ -190,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/test/java/page/objects/ProductPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SearchEngineTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/AddingProductToTheCart.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -604,7 +586,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531243568168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Search Engine Tests,&#10;Adding Product to Cart Tests">
+      <created>1531432560483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432560483</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Search Engine Tests,&#10;Adding Product to Cart Tests">
+      <created>1531432904316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432904316</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Search Engine Tests,&#10;Adding Product to Cart Tests">
+      <created>1531432977659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432977659</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -645,14 +648,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32786885" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" weight="0.30714285" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4984375" visible="true" weight="0.28551912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.28551912" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -676,7 +679,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Search Engine Tests,&#10;Adding Product to Cart Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Engine Tests,&#10;Adding Product to Cart Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -940,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1168">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/driver/manager/DriverUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1070,7 +1067,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddingProductToTheCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
