@@ -46,7 +46,7 @@ public class TopMenuPage {
     public TopMenuPage typeIntoSearchField(String searchText){
         WaitForElement.waitUntilElementIsVisible(searchField);
         searchField.sendKeys(searchText);
-        logger.info("Type text into search field");
+        logger.info("Type text into search Field");
         return new TopMenuPage();
     }
 
