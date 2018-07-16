@@ -10,13 +10,17 @@ import org.testng.Assert;
 import waits.WaitForElement;
 
 import static org.testng.Assert.assertTrue;
+import static org.testng.AssertJUnit.assertEquals;
 
 public class TopMenuPage {
 
     private Logger logger = LogManager.getRootLogger();
 
     @FindBy(css = "#MenuContent a[href*='signonForm']")
-    private WebElement signOnLink;
+    private WebElement signInLink;
+
+    @FindBy(xpath = "//a[contains(text(),'Sign Out')]")
+    private WebElement signOutLink;
 
     @FindBy(xpath = "//div[@id='SearchContent']//form//input[1]")
     private WebElement searchField;
@@ -37,11 +41,22 @@ public class TopMenuPage {
     }
 
     public LoginPage clickOnSignInLink(){
-        WaitForElement.waitUntilElementIsClickable(signOnLink);
-        signOnLink.click();
-        logger.info("Clicked on Sign on Link");
+        WaitForElement.waitUntilElementIsClickable(signInLink);
+        signInLink.click();
+        logger.info("Clicked on Sign In Link");
         return new LoginPage();
     }
+
+    public LoginPage clickOnSignOutLink(){
+        WaitForElement.waitUntilElementIsClickable(signOutLink);
+        signOutLink.click();
+        logger.info("Clicked on Sign out Link");
+        assertEquals(signOutLink.getText(),"Sing Out");
+        return new LoginPage();
+
+    }
+
+
 
     public TopMenuPage typeIntoSearchField(String searchText){
         WaitForElement.waitUntilElementIsVisible(searchField);

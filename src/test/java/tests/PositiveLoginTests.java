@@ -22,8 +22,15 @@ public class PositiveLoginTests extends TestBase {
                 .typeIntoPasswordField("j2ee")
                 .clickOnLoginButton()
                 .isBannerAfterLoginDisplayed();
-
         assertTrue(isBannerAfterLoginDisplayed);
+
+        TopMenuPage topMenuPage = new TopMenuPage();
+        topMenuPage
+                .clickOnSignOutLink();
+
+
+
+
     }
 
 }
